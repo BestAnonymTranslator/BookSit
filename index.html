@@ -291,6 +291,30 @@
     object-fit: cover;          /* масштабирует и обрезает, чтобы полностью заполнить блок */
     display: block;
 }
+        .progress-container {
+    margin-top: 0.8rem;
+}
+
+.progress-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-bottom: 0.3rem;
+}
+
+.progress-bar-bg {
+    background: #c0c0c0;
+    border: 3px solid #2f2f2f;
+    height: 22px;
+    box-shadow: inset 2px 2px 0 #f0f0f0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #487a5d;  /* тот же зелёный, что в предыдущих примерах */
+    border-right: 3px solid #2f4f2f;
+    box-shadow: inset -2px 0 0 #9ecfad;
+}
 
         /* Контакты */
         .contact-footer {
@@ -432,6 +456,12 @@
                     <span class="article-status">⚙️ перевод идёт</span>
                 </div>
             </div>
+            <div class="progress-container">
+    <div class="progress-label">Переведено 15 из 30 глав (50%)</div>
+    <div class="progress-bar-bg">
+        <div class="progress-fill" style="width: 50%;"></div>
+    </div>
+</div>
 
             <div class="article-content">
                 <p>
